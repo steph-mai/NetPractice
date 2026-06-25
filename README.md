@@ -170,7 +170,7 @@ CIDR (Classless Inter-Domain Routing) notation is a shorthand way to write IP ad
 
 A gateway is a device that connects your local network to other networks or the internet. The default gateway is the router that receives all data packets destined for networks outside your own. Every device needs to know its default gateway to communicate beyond its local network.
 
-Example: `Default` route or `0.0.0.0/0` via `192.168.1.1`means “send all unknown traffic through this gateway.” |
+Example: `Default` route or `0.0.0.0/0` via `192.168.1.1`means “send all unknown traffic through this gateway.”
 </details>
 
 <details>
@@ -184,12 +184,6 @@ The next hop is the next device that a data packet should be sent to on its jour
 
 A routing table is a list of routes stored in a router or device. Each route specifies which network address can be reached and through which gateway or interface the packet should be sent. Routers consult this table to decide how to forward each packet.
 </details>
-
-<details>
-<summary><strong>0.0.0.0/0 (Default Route)</strong></summary>
-
-This special address represents "any network" or "anywhere." When a router has a route to 0.0.0.0/0, it means "if you don't know where this packet should go, send it here." This is typically set to your internet service provider's gateway to reach the wider internet.
-</details><br>
 
 **4. Conceptual Framework:**
 
